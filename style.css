@@ -1,0 +1,14 @@
+main {
+    background-size: 100%;
+    animation:600ms pop infinite;
+}
+.dive{
+    height:50px;
+    background-color: rgb(201, 138, 57);
+}
+
+
+@keyframes pop{
+    from{background-image:url(https://memepedia.ru/wp-content/uploads/2020/12/pop-cat-1.jpg)}
+    to{background-image:url(https://memepedia.ru/wp-content/uploads/2020/12/pop-cat-2.jpg)}
+}
